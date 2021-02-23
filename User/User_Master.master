@@ -1,0 +1,648 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="User_Master.master.cs" Inherits="User_User_Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="../wp-content/themes/Forensic-Sciences-University/images/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="../wp-content/themes/Forensic-Sciences-University/images/favicon.ico" type="image/x-icon"/>
+<title>Indian Forensic Science University</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Super Market Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/custom-code/assets/js/page-loader.js'></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    /* init var */
+    itro_cookie_expiration = 0;
+    itro_is_preview = false; /* pass true if is the preview page. used for cookie control via js due W3 total cache or similar */
+    auto_margin = "yes";
+
+    /* invert the color of the mobile close tab label text */
+    jQuery('#ipp_mobile_close_txt').css({ color: itro_invert_color(itro_rgb2hex(jQuery('#itro_popup').css('border-bottom-color'))) });
+    itro_age_restriction = false; itro_enter_anim(auto_margin);
+    var popTime = 30;
+    interval_id = setInterval(function () { popTimer(); }, 1000); /* the countdown  */
+					</script>
+                    <a href="#" class="crunchify-top" style="display: inline;"><i class="glyphicon glyphicon-arrow-up"></i></a>
+                <script>
+                    jQuery(document).ready(function () {
+                        var offset = 220;
+                        var duration = 500;
+                        jQuery(window).scroll(function () {
+                            if (jQuery(this).scrollTop() > offset) {
+                                jQuery('.crunchify-top').fadeIn(duration);
+                            } else {
+                                jQuery('.crunchify-top').fadeOut(duration);
+                            }
+                        });
+
+                        jQuery('.crunchify-top').click(function (event) {
+                            event.preventDefault();
+                            jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                            return false;
+                        })
+                    });
+                </script>
+                <script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/js/jquery.scrollbox.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/js/jquery.mCustomScrollbar.concat.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/js/owl.carousel.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/js/my-script.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/custom-code/assets/js/pace.min.js'></script>
+
+<script type='text/javascript' src='../wp-content/themes/Forensic-Sciences-University/custom-code/assets/js/jquery.prettyPhoto.js'></script>
+<script type='text/javascript' src='../wp-includes/js/hoverIntent.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/megamenu/js/maxmegamenu.js'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js'></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1056957-36']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel='stylesheet' id='formidable-css'  href='../wp-content/plugins/formidable/css/formidableforms.css' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css'  href='../wp-content/uploads/maxmegamenu/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='../wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gfsu-bootsrap-css-css'  href='../wp-content/themes/Forensic-Sciences-University/css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gfsu-template-css-css'  href='../wp-content/themes/Forensic-Sciences-University/css/template.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gfsu-jquery-mCustomScrollbar-css'  href='../wp-content/themes/Forensic-Sciences-University/css/jquery.mCustomScrollbar.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gfsu-owl-css-css'  href='../wp-content/themes/Forensic-Sciences-University/css/owl.carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gfsu-font-awesome-css'  href='../wp-content/themes/Forensic-Sciences-University/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='Pace-css'  href='../wp-content/themes/Forensic-Sciences-University/custom-code/assets/css/pace.css' type='text/css' media='all' />
+<link rel='stylesheet' id='PrettyPhoto-css'  href='../wp-content/themes/Forensic-Sciences-University/custom-code/assets/css/prettyPhoto.css' type='text/css' media='all' />
+<link rel='stylesheet' id='Scroll-to-top-css'  href='../wp-content/themes/Forensic-Sciences-University/custom-code/assets/css/scroll-2-top.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='../wp-content/plugins/itro-popup/scripts/itro-scripts.js'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.8" />
+<link rel="canonical" href="../index.html" />
+<link rel='shortlink' href='../index.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed0adb.json?url=https%3A%2F%2Fwww.gfsu.edu.in%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed1933?url=https%3A%2F%2Fwww.gfsu.edu.in%2F&amp;format=xml" />
+
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="agileits_header" style="background-color:white;">
+		<div class="container">
+			<div class="w3l_offers" style="margin-left:20px">
+				<%--<p> <a style="font-size:30px;">Education through Investigation</a></p>--%>
+                <a href="Home.aspx">
+                <asp:Image ID="logo" runat="server"  Height="100px" Width="450px" ImageUrl="~/LOGO/DruryHorizontalStackedBW (1).png"   />
+                </a>
+			</div>
+			<div class="agile-login">
+				<ul>
+					<li ><a href="Forensic E-Courses.aspx"  id="gfsumenu">E-course |</a></li>
+					<li><a href="Notice Board.aspx" id="gfsumenu">Notice Board |</a></li>
+					<li><a href="News Update.aspx" id="gfsumenu">News Update |</a></li>
+                    <li><a href="Media.aspx" id="gfsumenu">Media |</a></li>
+                    <li><a href="Event Calendar.aspx"  id="gfsumenu">Event Calendar |</a></li>
+                    <li><a href="Downloads.aspx" id="gfsumenu">Downloads |</a></li>
+                    <li><a href="SCST Grievance Redressal.aspx" id="gfsumenu">SC/ST Grievance Redressal  </a></li>
+					
+				</ul>
+              
+			</div>
+			<div  class="w3l_offers" <%--class="product_list_header"--%>>  
+				<%--	<form action="#" method="post" class="last"> 
+						<input type="hidden" name="cmd" value="_cart">
+						<input type="hidden" name="display" value="1">
+						<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+					</form> --%> 
+                    <p> <a >Education through Investigation</a></p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+
+<!-- //header -->
+<!-- navigation -->
+	
+
+
+               <div class="menu-container">
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="menu-inner">
+                            <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
+                                <div class="mega-menu-toggle" tabindex="0">
+                                    <div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-right mega-toggle-block-1' id='mega-toggle-block-1'>
+                                    </div>
+                                </div>
+                                <ul id="mega-menu-primary" class="mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="1024" data-unbind="true">
+                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-30 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-80' id='mega-menu-item-80'>
+                                        <a class="mega-menu-link" href="Home.aspx" tabindex="0">Home</a>
+                                    </li>
+                                    <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-81' id='mega-menu-item-81'>
+                                        <a class="mega-menu-link" href="#" aria-haspopup="true" tabindex="0">The University</a>
+                                    <ul class="mega-sub-menu">
+                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-273' id='mega-menu-item-273'>
+                                            <a class="mega-menu-link" href="about-gfsu/index.html" aria-haspopup="true">About GFSU</a>
+	                                    <ul class="mega-sub-menu">
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-929' id='mega-menu-item-929'>
+                                            <a class="mega-menu-link" href="Vision Mission.aspx">Vision &#038; Mission</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-930' id='mega-menu-item-930'>
+                                            <a class="mega-menu-link" href="University Messages.aspx" >Messages</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-931' id='mega-menu-item-931'>
+                                            <a class="mega-menu-link" href="UGC Recognition.aspx">UGC Recognition</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-932' id='mega-menu-item-932'>
+                                            <a class="mega-menu-link" href="NAAC Accreditation.aspx">NAAC Accreditation</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-934' id='mega-menu-item-934'>
+                                            <a class="mega-menu-link" href="Research Center.aspx">Research Center</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-933' id='mega-menu-item-933'>
+                                            <a class="mega-menu-link" href="University Resourse Learning Centre.aspx" >Resource Learning Centre</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-935' id='mega-menu-item-935'>
+                                            <a class="mega-menu-link" href="Student Placement.aspx" >Student Placements</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-938' id='mega-menu-item-938'>
+                                            <a class="mega-menu-link" href="University Infrastructural Facility.aspx">Infrastructural Facilities</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-939' id='mega-menu-item-939'>
+                                            <a class="mega-menu-link" href="Concerned Committee.aspx">Concerned Committee</a>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-940' id='mega-menu-item-940'>
+                                            <a class="mega-menu-link" href="University Medal.aspx" >Medals</a>
+                                            </li>
+                                          <%--  <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-941' id='mega-menu-item-941'>
+                                            <a class="mega-menu-link" href="about-gfsu/mou/index.html">MoU</a>
+                                            </li>--%>
+                                            <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1895' id='mega-menu-item-1895'>
+                                            <a  class="mega-menu-link" href="Brochure.aspx">Brochure</a>
+                                            </li>
+                                         </ul>
+                                        </li>
+                                        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-129' id='mega-menu-item-129'>
+                                        <a class="mega-menu-link" href="#" aria-haspopup="true">Key Personnel / Statutory Officers</a>
+	                                        <ul class="mega-sub-menu">
+                                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-173' id='mega-menu-item-173'>
+                                                    <a class="mega-menu-link" href="Director General.aspx">The Director General</a>
+                                                </li>
+                                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-218' id='mega-menu-item-218'>
+                                                <a class="mega-menu-link" href="Registrar.aspx">The Registrar</a>
+                                                </li>
+                                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-217' id='mega-menu-item-217'>
+                                                <a class="mega-menu-link" href="Honorary Advisory.aspx">Honorary Advisory</a>
+                                                </li>
+                                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-219' id='mega-menu-item-219'>
+                                                <a class="mega-menu-link" href="Directors.aspx">Directors</a>
+                                                </li>
+                                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-216' id='mega-menu-item-216'>
+                                                <a class="mega-menu-link" href="University Officer.aspx">University Officers</a>
+                                                </li>
+                                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-943' id='mega-menu-item-943'>
+                                                <a class="mega-menu-link" href="University Administrative Staff.aspx">Administrative Staff</a>
+                                                </li>
+                                              </ul>
+                                        </li>
+                                        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-130' id='mega-menu-item-130'>
+                                        <a class="mega-menu-link" href="#" aria-haspopup="true">Boards & Committees / Governance</a>
+	                                        <ul class="mega-sub-menu">
+                                               <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-944' id='mega-menu-item-944'>
+                                               <a class="mega-menu-link" href="University Board Of Governers.aspx">Board of Governors</a>
+                                               </li>
+                                               <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-945' id='mega-menu-item-945'>
+                                               <a class="mega-menu-link" href="Advisory Committee.aspx" >Advisory Committee</a>
+                                               </li>
+                                               <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-946' id='mega-menu-item-946'>
+                                               <a class="mega-menu-link" href="Academic Council.aspx">Academic Council</a>
+                                               </li>
+                                               <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1086' id='mega-menu-item-1086'>
+                                               <a class="mega-menu-link" href="University Finance Committee.aspx" >Finance Committee</a>
+                                               </li>
+                                            </ul>
+                                        </li>
+                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-columns-1-of-4 mega-menu-item-4590' id='mega-menu-item-4590'>
+                                        <a class="mega-menu-link" href="University Central Forensics.aspx" >Center of Excellence of Humanitarian Forensics</a>
+                                        </li>
+                                       </ul>
+                                    </li>
+                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-4709' id='mega-menu-item-4709'>
+                                    <a class="mega-menu-link" href="NIRF.aspx" tabindex="0">NIRF</a>
+                                    </li>
+                                    <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-82' id='mega-menu-item-82'>
+                                    <a class="mega-menu-link" href="#" aria-haspopup="true" tabindex="0">Academics</a>
+                                        <ul class="mega-sub-menu">
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-457' id='mega-menu-item-457'>
+                                            <a class="mega-menu-link" href="#" aria-haspopup="true">Institute of Forensic Science</a>
+	                                            <ul class="mega-sub-menu">
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-450' id='mega-menu-item-450'>
+                                                    <a class="mega-menu-link" href="Forensic About Institute.aspx">About Institute</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-449' id='mega-menu-item-449'>
+                                                    <a class="mega-menu-link" href="Forensic About Director.aspx">About Director</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-454' id='mega-menu-item-454'>
+                                                    <a class="mega-menu-link" href="Forensic Program.aspx" >Programs</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-975' id='mega-menu-item-975'>
+                                                    <a class="mega-menu-link" href="Forensic E-Courses.aspx" >E-Courses</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-975' id='Li7'>
+                                                    <a class="mega-menu-link" href="Forensic Ecourse Brochure.aspx" >E-Courses Brocures</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-453' id='mega-menu-item-453'>
+                                                    <a class="mega-menu-link" href="Forensic FullTime Faculty.aspx">Full Time Faculty</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-453' id='Li1'>
+                                                    <a class="mega-menu-link" href="Forensic Visiting Faculty.aspx" >Visiting Faculty</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-453' id='Li2'>
+                                                    <a class="mega-menu-link" href="Forensic Guest Faculty.aspx" >Guest Lecturers</a>
+                                                    </li>
+                                                    <%--<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-455' id='mega-menu-item-455'>
+                                                    <a class="mega-menu-link" href="institute-of-forensic-science/publication-ifs/index.html">Publication</a>
+                                                    </li>--%>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-630' id='mega-menu-item-630'>
+                                                    <a class="mega-menu-link" href="Forensic Infrastructural Facilities.aspx" >Infrastructural Facilities</a>
+                                                    </li>
+                                                  </ul>
+                                            </li>
+                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-477' id='mega-menu-item-477'>
+                                            <a class="mega-menu-link" href="#" aria-haspopup="true">Institute of Behavioral Science</a>
+	                                            <ul class="mega-sub-menu">
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-485' id='mega-menu-item-485'>
+                                                    <a class="mega-menu-link" href="Behavioral About Institute.aspx">About Institute</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-478' id='mega-menu-item-478'>
+                                                    <a class="mega-menu-link" href="Behavioral About Director.aspx">About Director</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-484' id='mega-menu-item-484'>
+                                                    <a class="mega-menu-link" href="Behavioural Science Program.aspx">Programs</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-976' id='mega-menu-item-976'>
+                                                    <a class="mega-menu-link" href="Behavioral PH.D.Program.aspx" >Ph.D. Programme</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-482' id='Li4'>
+                                                    <a class="mega-menu-link" href="Behavioral full Time Faculty.aspx">Full Time Faculty</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-482' id='mega-menu-item-482'>
+                                                    <a class="mega-menu-link" href="Behavioral Visiting Faculty.aspx">Visiting Faculty</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-482' id='Li3'>
+                                                    <a class="mega-menu-link" href="Behavioral Guest Faculty.aspx">Guest Lectures</a>
+                                                    </li>
+                                                   <%-- <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-480' id='mega-menu-item-480'>
+                                                    <a class="mega-menu-link" href="institute-of-behavioral-science/publication-ibs/index.html">Publication</a>
+                                                    </li>--%>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-483' id='mega-menu-item-483'>
+                                                    <a class="mega-menu-link" href="Behavioral Admission Eligibility.aspx">Admission &#038; Eligibility</a>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-653' id='mega-menu-item-653'>
+                                                    <a class="mega-menu-link" href="Behavioral Infrastructural Facilities.aspx">Infrastructural Facilities</a>
+                                                    </li>
+                                                  </ul>
+                                                </li>
+                                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-507' id='mega-menu-item-507'>
+                                                <a class="mega-menu-link" href="#" aria-haspopup="true">Institute of Research &#038; Development</a>
+	                                                <ul class="mega-sub-menu">
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-515' id='mega-menu-item-515'>
+                                                        <a class="mega-menu-link" href="Research About Institute.aspx">About Institute</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-514' id='mega-menu-item-514'>
+                                                        <a class="mega-menu-link" href="Research About Director.aspx">About Director</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-513' id='mega-menu-item-513'>
+                                                        <a class="mega-menu-link" href="Research Program.aspx">Programs</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-511' id='mega-menu-item-511'>
+                                                        <a class="mega-menu-link" href="Research Full Time Faculty.aspx">Full Time Faculty</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-511' id='Li5'>
+                                                        <a class="mega-menu-link" href="Research Visiting Faculty.aspx" >Visiting Faculty</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-511' id='Li6'>
+                                                        <a class="mega-menu-link" href="Research Guest Faculty.aspx">Guest Lectures</a>
+                                                        </li>
+                                                        <%--<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-509' id='mega-menu-item-509'>
+                                                        <a class="mega-menu-link" href="institute-of-research-development/publication-ird/index.html">Publication</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1557' id='mega-menu-item-1557'>
+                                                        <a target="_blank" class="mega-menu-link" href="wp-content/uploads/2018/05/IRD_brochure.pdf">Brochure</a>
+                                                        </li>--%>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-512' id='mega-menu-item-512'>
+                                                        <a class="mega-menu-link" href="Research Admission And Eligibility.aspx">Admission &#038; Eligibility</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-612' id='mega-menu-item-612'>
+                                                        <a class="mega-menu-link" href="Research Infrastructural Facilities.aspx">Infrastructural /Instrumental Facilities</a>
+                                                        </li>	
+                                                       </ul>
+                                                    </li>
+                                                   </ul>
+                                                </li>
+                                                <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-956' id='mega-menu-item-956'>
+                                                <a class="mega-menu-link" href="#" aria-haspopup="true" tabindex="0">Students Corner</a>
+                                                    <ul class="mega-sub-menu">
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-955' id='mega-menu-item-955'>
+                                                        <a class="mega-menu-link" href="Academic Calender.aspx">Academic Calendar</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-957' id='mega-menu-item-957'>
+                                                        <a class="mega-menu-link" href="Results.aspx">Results</a>
+                                                        </li>
+                                                     <%--   <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-959' id='mega-menu-item-959'>
+                                                        <a class="mega-menu-link" href="circular/index.html">Circular</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-960' id='mega-menu-item-960'>
+                                                        <a class="mega-menu-link" href="co-curricular-activities/index.html">Co-curricular Activities</a>
+                                                        </li>--%>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-961' id='mega-menu-item-961'>
+                                                        <a class="mega-menu-link" href="Student Training and Placement.aspx" >Training and Placement</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-962' id='mega-menu-item-962'>
+                                                        <a class="mega-menu-link" href="Convocation.aspx">Convocation</a>
+                                                        </li>
+                                                       <%-- <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-963' id='mega-menu-item-963'>
+                                                        <a class="mega-menu-link" href="alumni/index.html">Alumni</a>
+                                                        </li>--%>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-964' id='mega-menu-item-964'>
+                                                        <a class="mega-menu-link" href="Students Achievement.aspx">Students' Achievement</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-966' id='mega-menu-item-966'>
+                                                        <a class="mega-menu-link" href="Student International Affairs Cell.aspx" >International Affairs Cell</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-967' id='mega-menu-item-967'>
+                                                        <a class="mega-menu-link" href="University Accomodation.aspx">University Accommodation</a>
+                                                        </li>
+                                                       <%-- <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-969' id='mega-menu-item-969'>
+                                                        <a class="mega-menu-link" href="parents-testimonial/index.html">Parent's Testimonial</a>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-972' id='mega-menu-item-972'>
+                                                        <a class="mega-menu-link" href="students-testimonials/index.html">Student's Testimonials</a>
+                                                        </li>--%>
+                                                     <%--   <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-973' id='mega-menu-item-973'>
+                                                        <a class="mega-menu-link" href="life-gfsu/index.html">Life @ GFSU</a>
+                                                        </li>--%>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-3028' id='mega-menu-item-3028'>
+                                                        <a class="mega-menu-link" href="E-Resource.aspx">E-Resource</a>
+                                                        </li>
+                                                       </ul>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-948' id='mega-menu-item-948'>
+                                                    <a class="mega-menu-link" href="#" aria-haspopup="true" tabindex="0">News Corner</a>
+                                                        <ul class="mega-sub-menu">
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-949' id='mega-menu-item-949'>
+                                                            <a class="mega-menu-link" href="Media.aspx">Media</a>
+                                                            </li>
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-950' id='mega-menu-item-950'>
+                                                            <a class="mega-menu-link" href="Event Calendar.aspx" >Event Calendar</a>
+                                                            </li>
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-952' id='mega-menu-item-952'>
+                                                            <a class="mega-menu-link" href="Visitors at the GFSU.aspx">Visitor's At the GFSU</a>
+                                                            </li>                                                          
+                                                          </ul>
+                                                    </li>
+                                                    <li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1209' id='mega-menu-item-1209'>
+                                                    <a class="mega-menu-link" href="#" aria-haspopup="true" tabindex="0">Gallery</a>
+                                                        <ul class="mega-sub-menu">
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2254' id='mega-menu-item-2254'>
+                                                            <a class="mega-menu-link" href="Photo Gallery.aspx">Photo Gallery</a>
+                                                            </li>
+                                                            <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1227' id='mega-menu-item-1227'>
+                                                            <a class="mega-menu-link" href="Virtual Tour.aspx">Virtual Tour</a>
+                                                            </li>
+                                                           </ul>
+                                                        </li>
+                                                        <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-245' id='mega-menu-item-245'>
+                                                        <a class="mega-menu-link" href="Contact Us.aspx" tabindex="0">Contact Us</a>
+                                                        </li>
+                                                      </ul>
+                                                    </div>
+                                                 </div>
+                                           </div>
+                                    </div>
+                            </div>
+                   </div>
+              
+
+
+<!-- //navigation -->
+
+
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+
+
+    </asp:ContentPlaceHolder>
+
+
+
+
+<!-- //footer -->
+<div class="footer">
+		<div class="container">
+			<div class="w3_footer_grids">
+
+				<div class="col-md-3 w3_footer_grid">
+					<h3>Contact</h3>
+					
+					<ul class="address">
+						<li><a href="https://www.google.co.in/maps/place/Gujarat+Forensic+Sciences+University/@23.2104235,72.6618614,15z/data=!4m5!3m4!1s0x0:0x4f9616711f2fb4e5!8m2!3d23.2104235!4d72.6618614"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Nr. DFS Head Quarters, National <span> Highway 8C, Sector 9,</span><span> Gandhinagar, Gujarat 382007</span></a></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:dir_fs@gfsu.edu.in">dir_fs@gfsu.edu.in</a></li>
+                        <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:registrar@gfsu.edu.in">registrar@gfsu.edu.in</a></li>
+                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+91-79-23977144 <span>+91-79-23977102/103</span></li>
+					</ul>
+				</div>
+               	<div class="col-md-3 w3_footer_grid">
+					<h3>Menu</h3>
+					<ul class="info"> 
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Forensic E-Courses.aspx">E-Course</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Notice Board.aspx">Notice Board</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="News Update.aspx">News Update</a></li>
+                        <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Downloads.aspx">Downloads</a></li>
+                        <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="SCST Grievance Redressal.aspx">SC/ST Grievance Redressal</a></li>
+					</ul>
+				</div>
+                <div class="col-md-3 w3_footer_grid">
+					<h3>News Corner</h3>
+					<ul class="info"> 
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Media.aspx">Media</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Event Calendar.aspx">Event Calender</a></li>
+                        <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Visitors at the GFSU.aspx">Visitor's AT The GFSU</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 w3_footer_grid">
+					<h3>Information</h3>
+					<ul class="info"> 
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="GFSU Act 2019.aspx">GFSU ACT, 2019</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="RTI.aspx">RTI</a></li>
+					
+					</ul>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		
+		<div class="footer-copy">
+			
+			<div class="container">
+				<p>© 2019 GFSU. All rights reserved | Design by <a href="Home.aspx">Gujarat Forensic Science University </a></p>
+			</div>
+		</div>
+		
+	</div>	
+	<%--<div class="footer-botm">
+			<div class="container">
+				<div class="w3layouts-foot">
+					<ul>
+						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="payment-w3ls">	
+					<img src="images/card.png" alt=" " class="img-responsive">
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>--%>
+<!-- //footer -->	
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- top-header and slider -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	      
+	        var defaults = {
+	        containerID: 'toTop', // fading element id
+	        containerHoverID: 'toTopHover', // fading element hover id
+	        scrollSpeed: 1200,
+	        easingType: 'linear' 
+	        };
+	      
+
+	        $().UItoTop({ easingType: 'easeOutQuart' });
+
+	    });
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/minicart.min.js"></script>
+
+
+
+
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<%--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107517738-1"></script>--%>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments) };
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107517738-1');
+</script>
+
+
+<script>
+    // Mini Cart
+    paypal.minicart.render({
+        action: '#'
+    });
+
+    if (~window.location.search.indexOf('reset=true')) {
+        paypal.minicart.reset();
+    }
+</script>
+<!-- main slider-banner -->
+<script src="js/skdslider.min.js"></script>
+<link href="css/skdslider.css" rel="stylesheet">
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#demo1').skdslider({ 'delay': 5000, 'animationSpeed': 2000, 'showNextPrev': true, 'showPlayButton': true, 'autoSlide': true, 'animationType': 'fading' });
+
+        jQuery('#responsive').change(function () {
+            $('#responsive_wrapper').width(jQuery(this).val());
+        });
+
+    });
+</script>	
+<!-- //main slider-banner --> 
+</body>
+</html>

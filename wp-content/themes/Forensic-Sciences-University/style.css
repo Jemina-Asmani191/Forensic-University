@@ -1,0 +1,75 @@
+/*
+Theme Name: Gujarat Forensic Sciences University
+Theme URI: https://www.vox360.com/
+Author: Cybervox Networks Limited
+Author URI: http://www.vox360.com/
+Description: This theme was intentionally Created for Gujarat Forensic Sciences University. There are times when all you need is the WordPress dashboard and an blank frontend. You might be using the WordPress REST API as a backend for a mobile App or you might be a minimalism obsessed hipster. This is your theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, theme-options, translation-ready
+Text Domain: gfsu
+*/
+
+.box-lnk.put-bottom {
+    top: 90% !important;
+}
+ul.downloads {
+    list-style-type: none;
+}
+ul.downloads li {
+   background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 3px;
+    min-height: 110px;
+    padding: 12px;
+    vertical-align: top;
+    width: 49%;
+	margin-left: 5px !important;
+}
+ul.downloads li a {
+    display: block;
+    overflow: hidden;
+}
+ul.downloads li a img {
+    float: left;
+    margin: 0px 5px 0px 5px;
+}
+ul.downloads li a div {
+    color: #000;
+    overflow: hidden;
+}
+.post-sin-con h4 {
+    margin-top: 0;
+    padding-top: 0;
+}
+.nav.nav-tabs li::before {
+    content: none !important;
+}
+ul.event-details li:before
+{
+    content: none;
+}
+.fa-2 {
+    font-size: 1.7em;
+}
+
+.fa.fa-asterisk {
+    color: red;
+    font-size: 10px;
+    font-weight: normal;
+    vertical-align: super;
+}
+.post-thumb-gallary-temp {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px !important;
+    max-height: 200px;
+    min-height: 200px;
+    overflow: hidden !important;
+}
+.fac-left
+{
+min-height: 510px !important;
+}
